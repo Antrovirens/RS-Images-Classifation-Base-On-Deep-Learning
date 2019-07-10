@@ -17,11 +17,11 @@ for data in datas:
 
 ### 神经网络搭建
 
-expit函数，也称为logistic sigmoid函数，定义为expit（x）= 1 /（1 + exp（-x））。 它是logit函数的反函数。
-参数：x:ndarray
-　　　ndarray的元素应用expit函数
-输出：out:ndarray
-　　　与x形状相同的ndarray,它的元素是对应元素输入expit函数的结果
+expit函数，也称为logistic sigmoid函数，定义为expit（x）= 1 /（1 + exp（-x））。 它是logit函数的反函数。  
+参数：x:ndarray  
+　　　ndarray的元素应用expit函数  
+输出：out:ndarray  
+　　　与x形状相同的ndarray,它的元素是对应元素输入expit函数的结果  
 ```
 >>> import numpy as np
 >>> from scipy.special import expit

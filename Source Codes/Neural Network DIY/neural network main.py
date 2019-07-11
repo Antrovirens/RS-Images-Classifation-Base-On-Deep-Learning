@@ -1,6 +1,6 @@
 import numpy as np
 import scipy.special
-
+#定义三层神经网络
 class neuralNetwork:
     def __init__(self, inputnodes, hiddennodes, outputnodes, learningrate):
         self.inodes = inputnodes #输入层
@@ -69,7 +69,7 @@ for record in training_data_list:
     targets[int(all_values[0])] = 0.99   #1*10
     n.train(inputs, targets)
     pass
-print('训练结束\n')
+#print('训练结束\n')
 #test the network
 
 test_data_file = open("mnist_test.csv",'r')
@@ -85,7 +85,8 @@ for record in test_data_list:
     correct_label = int(all_values[0])
     outputs = n.query((np.asfarray(all_values[1:]) / 255.0 * 0.99) + 0.01)
     label = np.argmax(outputs)
-    print('correct:' + str(correct_label) +' result:' + str(label))
+    #print('correct:' + str(correct_label) +' result:' + str(label))
+    #下面是随便写的  凑合着看看
     if label == correct_label:
         score += 1
         num +=1

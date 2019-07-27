@@ -1,0 +1,11 @@
+{
+    "python.pythonPath": "C:\\Program Files\\Python37\\python.exe",
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    // whitelist torch to remove lint errors
+    "python.linting.pylintArgs": [
+        "--extension-pkg-whitelist=torch",
+        "--ignored-modules=torch", 
+        "--ignored-classes=torch", 
+    ]
+}

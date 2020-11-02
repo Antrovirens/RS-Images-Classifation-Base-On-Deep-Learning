@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-6.0.dtd">
+<!-- eric6 tasks file for project OpenFile -->
+<!-- Saved: 2020-02-03, 12:56:19 -->
+<Tasks version="6.0">
+  <ProjectScanFilter></ProjectScanFilter>
+  <Task priority="1" completed="False" type="1" uid="{bf1b8b92-e6bf-4424-a612-1ebe8b09d951}">
+    <Summary>TODO: open tiff files</Summary>
+    <Description></Description>
+    <Created>2020-02-03, 12:55:58</Created>
+    <Resource>
+      <Filename>Window.py</Filename>
+      <Linenumber>38</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{75a43e83-217d-4eb8-a0d8-f41681f26942}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2020-02-03, 12:55:58</Created>
+    <Resource>
+      <Filename>Window.py</Filename>
+      <Linenumber>59</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{89a06baf-e58a-47f0-87b3-e6322467f69a}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2020-02-03, 12:55:58</Created>
+    <Resource>
+      <Filename>Window.py</Filename>
+      <Linenumber>67</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" type="1" uid="{099733c7-d0e3-4820-bfd2-cdf9c0b04938}">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2020-02-03, 12:55:58</Created>
+    <Resource>
+      <Filename>Window.py</Filename>
+      <Linenumber>75</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>
